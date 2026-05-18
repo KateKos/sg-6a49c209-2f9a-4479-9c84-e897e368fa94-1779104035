@@ -13,10 +13,10 @@ position: 2
 Weekly summary showing completion rates, longest streaks, and insights. Visual progress representation with charts or progress bars.
 
 ## Checklist
-- [ ] Create WeeklyReport page: displays 7-day grid, completion percentages, insights
-- [ ] Add navigation link from main view
-- [ ] Style with achievement color (amber) for milestones
-- [ ] Include encouraging summary copy based on performance
+- [x] Create WeeklyReport page: displays 7-day grid, completion percentages, insights
+- [x] Add navigation link from main view
+- [x] Style with achievement color (amber) for milestones
+- [x] Include encouraging summary copy based on performance
 
 ## Acceptance
 - Report shows accurate weekly completion data

@@ -2,8 +2,9 @@ import { SEO } from "@/components/SEO";
 import { HabitCard } from "@/components/HabitCard";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Plus, TrendingUp, Award } from "lucide-react";
+import { Plus, TrendingUp, Award, BarChart3 } from "lucide-react";
 import { useState } from "react";
+import Link from "next/link";
 import type { Habit } from "@/types/habit";
 
 export default function Home() {
@@ -75,6 +76,15 @@ export default function Home() {
       <div className="min-h-screen bg-background">
         <div className="container py-8 space-y-8">
           <header className="text-center space-y-4 animate-fade-in-up">
+            <div className="flex justify-end mb-4">
+              <Link href="/report">
+                <Button variant="outline" className="gap-2 border-accent/20 hover:bg-accent/10">
+                  <BarChart3 className="w-4 h-4" />
+                  Weekly Report
+                </Button>
+              </Link>
+            </div>
+            
             <h1 className="font-heading font-semibold text-5xl md:text-6xl text-foreground">
               Your Daily Habits
             </h1>

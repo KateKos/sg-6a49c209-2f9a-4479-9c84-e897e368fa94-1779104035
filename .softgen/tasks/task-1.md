@@ -1,6 +1,6 @@
 ---
 title: Daily Habits View
-status: in_progress
+status: done
 priority: urgent
 type: feature
 tags: [ui, habits, streaks]

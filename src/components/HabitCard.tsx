@@ -68,7 +68,7 @@ export function HabitCard({ habit, onCheckIn, animationDelay = 0 }: HabitCardPro
 
           {habit.lastCheckedIn && !habit.completedToday && (
             <p className="text-xs text-muted-foreground">
-              Last check-in: {new Date(habit.lastCheckedIn).toLocaleDateString()}
+              Last check-in: {new Date(habit.lastCheckedIn).toLocaleDateString('en-US')}
             </p>
           )}
         </div>

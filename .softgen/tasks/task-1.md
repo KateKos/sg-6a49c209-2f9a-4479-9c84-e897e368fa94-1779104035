@@ -13,11 +13,11 @@ position: 1
 Main habit tracking interface. User sees today's habits with check-in buttons, current streaks, and motivational copy. Card-based layout with stagger entrance animations.
 
 ## Checklist
-- [ ] Create HabitCard component: displays habit name, check-in button, current streak count, last check-in date
-- [ ] Create DailyView page: grid of today's habits (4-6 sample habits), floating "Add Habit" button, encouraging header
-- [ ] Implement check-in interaction: toggle state, streak increment animation, celebration micro-copy
-- [ ] Add stagger entrance animation on page load
-- [ ] Style with design system (coral primary, rounded corners, generous spacing)
+- [x] Create HabitCard component: displays habit name, check-in button, current streak count, last check-in date
+- [x] Create DailyView page: grid of today's habits (4-6 sample habits), floating "Add Habit" button, encouraging header
+- [x] Implement check-in interaction: toggle state, streak increment animation, celebration micro-copy
+- [x] Add stagger entrance animation on page load
+- [x] Style with design system (coral primary, rounded corners, generous spacing)
 
 ## Acceptance
 - Clicking a habit check-in button shows visual feedback and updates streak count

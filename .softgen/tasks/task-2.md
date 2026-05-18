@@ -1,6 +1,6 @@
 ---
 title: Weekly Report View
-status: in_progress
+status: done
 priority: high
 type: feature
 tags: [reports, analytics]
